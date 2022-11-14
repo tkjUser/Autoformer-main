@@ -193,6 +193,7 @@ class Dataset_Custom(Dataset):
     '''自定义的 Dataset_Custom类， 继承父类：Dataset，重载两个私有成员函数__len__、__getitem__
     参数:
         root_path: './dataset/electricity/'
+        flag: 'train'
         size: [96, 48, 96]
         features: 'M'
         data_path: 'electricity.csv'
